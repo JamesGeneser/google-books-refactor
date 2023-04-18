@@ -40,7 +40,7 @@ const SignupForm = () => {
         variables: { ...userFormData },
       });
 
-      Auth.login(dara.addUser.token);
+      Auth.login(data.addUser.token);
     } catch (err) {
       console.log(err);
       setShowAlert(true);
